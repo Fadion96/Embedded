@@ -1,0 +1,37 @@
+v 4
+file . ".\zad5.vhd" "f1919d859d3c433275133395de6aca21af397fc3" "20180306124641.841":
+  entity zad5 at 1( 0) + 0 on 47;
+  architecture behavior of zad5 at 13( 167) + 0 on 48;
+file . ".\Xand_tb.vhd" "9a1c8ff4eb116515917517902bda7d8c129c1060" "20180227173242.266":
+  entity xand_tb at 1( 0) + 0 on 39;
+  architecture behavior of xand_tb at 11( 246) + 0 on 40;
+file . ".\example_tb.vhd" "e6aac82b0a2bfa4eff9e7e14c275a56180c7a97c" "20180227164417.058":
+  entity example_tb at 1( 0) + 0 on 27;
+  architecture behavior of example_tb at 12( 243) + 0 on 28;
+file . ".\lab2-gates.vhd" "fb1aa792db18cc6edd07c07c10b5e9384d50cebe" "20180227162056.778":
+  entity gateand at 4( 16) + 0 on 11;
+  architecture behavioral of gateand at 15( 156) + 0 on 12;
+  entity gateor at 23( 258) + 0 on 13;
+  architecture behavioral of gateor at 34( 396) + 0 on 14;
+  entity gatexor at 43( 498) + 0 on 15;
+  architecture behavioral of gatexor at 54( 638) + 0 on 16;
+  entity gatenot at 62( 741) + 0 on 17;
+  architecture behavioral of gatenot at 72( 865) + 0 on 18;
+  entity mux at 80( 986) + 0 on 19;
+  architecture zachowanie of mux at 91( 1142) + 0 on 20;
+file . ".\example.vhd" "8966fb7cabaec7564f1d590e4f8c5d4f4d9d9a1d" "20180227162210.209":
+  entity example at 1( 0) + 0 on 21;
+  architecture synthetic of example at 12( 135) + 0 on 22;
+file . ".\Xand.vhd" "419325b4a9c171b22cdca1ef21e266d389c0ffd5" "20180227173237.648":
+  entity xand at 1( 0) + 0 on 37;
+  architecture behavioral of xand at 14( 226) + 0 on 38;
+file . ".\zad5_gates.vhd" "1e75f870f47420045f24042e81eb63e8de9f4452" "20180306130548.174":
+  entity gatenxor at 1( 0) + 0 on 53;
+  architecture behavioral of gatenxor at 14( 165) + 0 on 54;
+  entity gatenand at 20( 260) + 0 on 55;
+  architecture behavioral of gatenand at 33( 425) + 0 on 56;
+  entity gateandn at 39( 520) + 0 on 57;
+  architecture behavioral of gateandn at 52( 685) + 0 on 58;
+file . ".\zad5_tb.vhd" "861b8ada6e5762f3d9f9705599b8e5aa60c1efb7" "20180306161632.387":
+  entity zad5_tb at 1( 0) + 0 on 63;
+  architecture behavior of zad5_tb at 9( 111) + 0 on 64;
