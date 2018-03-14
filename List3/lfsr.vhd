@@ -5,7 +5,7 @@ use IEEE.numeric_std.ALL;
 
 entity lfsr is
     Port ( clk : in  STD_LOGIC;
-           q : inout  STD_LOGIC_VECTOR(15 downto 0) := (OTHERS => '0')
+           q : inout  STD_LOGIC_VECTOR(15 downto 0) := (0 => '1', OTHERS => '0')
 			);
 end lfsr;
 
@@ -14,9 +14,8 @@ BEGIN
   PROCESS
   BEGIN
 	q(15 downto 1) <= q(14 downto 0);
-	q(0) <= not(q(15) XOR q(14) XOR q(13) XOR q(4));
-	
+	q(0) <= q(15) XOR q(14) XOR q(13) XOR q(4);
+
 	WAIT UNTIL clk'event AND clk='1';
   END PROCESS;
 END Behavioral;
-
