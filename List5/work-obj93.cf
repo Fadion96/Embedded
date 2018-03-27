@@ -1,0 +1,13 @@
+v 4
+file . ".\zad5_tb.vhd" "d97095a6e2e4fe936c92635fc33ed6274034a62e" "20180327143120.708":
+  entity zad5_tb at 1( 0) + 0 on 151;
+  architecture behavior of zad5_tb at 12( 187) + 0 on 152;
+file . ".\statemachine_tb.vhd" "ca875798d368710c4340fb24d8b3d82b4877d625" "20180327141649.874":
+  entity statemachine_tb at 1( 0) + 0 on 139;
+  architecture behavior of statemachine_tb at 12( 192) + 0 on 140;
+file . ".\vhdl_txt.vhd" "5c1109f0233bfbf6358a7751b68853bd9dcb3e48" "20180320171249.468":
+  package txt_util at 5( 63) + 0 on 13 body;
+  package body txt_util at 93( 2544) + 0 on 14;
+file . ".\zad5.vhd" "68bbca3a794e60fe4d733e469c3a5466d7e190fd" "20180327143053.052":
+  entity zad5 at 2( 2) + 0 on 149;
+  architecture flow of zad5 at 15( 223) + 0 on 150;
